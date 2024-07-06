@@ -11,4 +11,3 @@ COPY ./requirements.txt /usr/src/
 RUN pip install -r requirements.txt
 
 COPY . /usr/src/app
-RUN chmod +x ./entrypoints/*
